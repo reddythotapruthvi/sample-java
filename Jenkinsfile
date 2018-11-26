@@ -1,10 +1,16 @@
-pipeline {
-    agent { docker 'maven:3.3.3' }
-    stages {
-        stage('build') {
-            steps {
-                bat 'mvn --version'
-            }
-        }
-    }
+node
+{
+   stage ('Package')
+   { 
+      bat 'mvn clean package'
+      
+   }
 }
+ 
+
+
+
+
+
+
+

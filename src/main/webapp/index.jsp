@@ -3,10 +3,12 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+           
+    
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password] {    
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -63,7 +65,10 @@ span.psw {
     .cancelbtn {
        width: 100%;
     }
-}
+}    
+    
+    
+    
 </style>
 </head>
 <body>
@@ -76,11 +81,16 @@ span.psw {
   </div>
 
   <div class="container">
+<<<<<<< HEAD
     <label for="uname"><b>username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
+=======
+    <label for="uname"><b>Enter Admin User</b></label>
+    <input type="text" placeholder="Enter Admin UserName" name="uname" required>
+>>>>>>> 60591e26bb8f89bdce5e5a8cc1d3b832223a3b40
 
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <label for="psw"><b>Enter Password</b></label>
+    <input type="password" placeholder="Enter Default Admin Password" name="psw" required>
         
     <button type="submit">Login</button>
     <label>
