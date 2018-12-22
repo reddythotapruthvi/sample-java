@@ -81,7 +81,6 @@ span.psw {
   </div>
 
   <div class="container">
-<<<<<<< HEAD
     <label for="uname"><b>username</b></label>
     <input type="text" placeholder="Enter Username" name="uname" required>
 =======
