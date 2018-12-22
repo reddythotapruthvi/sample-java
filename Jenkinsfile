@@ -2,7 +2,7 @@ node
 {
    stage ('Package')
    { 
-      bat 'mvn clean package'
+      bat 'mvn clean package'    
       
    }
 }
