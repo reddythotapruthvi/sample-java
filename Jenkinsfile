@@ -1,5 +1,7 @@
 node
 {
+   checkout scm
+   {
    stage ('Package')
    { 
       bat 'mvn clean package'    
@@ -7,6 +9,7 @@ node
    stage ('site')
    {
    bat 'mvn site'
+   }
    }
 }  
  
