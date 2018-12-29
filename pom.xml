@@ -16,7 +16,7 @@
     </dependency>
   </dependencies>
   <build> 
-    <plugins
+    <plugins>
 
 	  <plugin>
           <artifactId>maven-site-plugin</artifactId>
