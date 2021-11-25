@@ -16,12 +16,9 @@
     </dependency>
     <dependency>     
       <groupId>war</groupId>
-      <artifactId>war</artifactId>
-      <version>2.2.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency org="org.apache.maven.plugins" name="maven-war-plugin" rev="3.3.2">
-      <artifact name="maven-war-plugin" type="maven-plugin" />
+      <artifactId>maven-war-plugin</artifactId>
+      <version>3.3.2</version>
+      <scope>maven-plugin</scope>
     </dependency>
   </dependencies>
   <build> 
