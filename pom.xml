@@ -20,6 +20,9 @@
       <version>2.2.2</version>
       <scope>compile</scope>
     </dependency>
+    <dependency org="org.apache.maven.plugins" name="maven-war-plugin" rev="3.3.2">
+      <artifact name="maven-war-plugin" type="maven-plugin" />
+    </dependency>
   </dependencies>
   <build> 
     <finalName>JenkinsWar1</finalName>
